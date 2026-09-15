@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <table border="10" cellspacing="5" cellpadding="10" bgcolor=" ">
+        <tr bgcolor="pink">
+            <th bgcolor="yellow">name</th>
+            <th>age</th>
+            <th>gender</th>
+            <th>college</th>
+        </tr>
+        <tr bgcolor="pink">
+            <td>Mahi👀</td>
+            <td>19</td>
+            <td>Male</td>
+            <td>LNCT College</td>
+        </tr>
+        <tr bgcolor="lightblue">
+            <td>Aditi🤏🏻</td>
+            <td>20</td>
+            <td>Female</td>
+            <td>LNCT College</td>
+        </tr>
+        <tr bgcolor="pink">
+            <td>Sunny😘</td>
+            <td>21</td>
+            <td>Male</td>
+            <td>LNCT College</td>
+        </tr>
+        <tr bgcolor="orange">
+            <td>Sumit🤜🏻🤛🏻</td>
+            <td>22</td>
+            <td>Male</td>
+            <td>LNCT College</td>
+        </tr>
+        <tr bgcolor="lightgreen">
+            <td>teja👺</td>
+            <td>20</td>
+            <td>Female</td>
+            <td>LNCT College</td>
+        </tr>
+    </table>
+
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <hr>
+    <p>
+        <h1>
+            USING OF colspan="_" AND rowspan="_"
+        </h1>
+    </p>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <h3>WRONG creation</h3>
+    <table border="5" cellspacing="5" cellpadding="10" bgcolor="pink">
+        <tr>
+            <th>S.NO.</th>
+            <th>Name</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Age</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <th>S.NO</th>
+            <th>F.NAME</th>
+            <th>L.NAME</th>
+            <th>DATE</th>
+            <th>MOTHS</th>
+            <th>YEAR</th>
+        </tr>
+    </table>
+
+    <h3>CORRECT way</h3>
+
+    <table border="1" cellspacing="2" cellpadding="10" bgcolor="lightgreen">
+        <tr>
+            <th rowspan="2">S.NO.</th>
+            <th colspan="2">Name</th>
+            <th colspan="3">Age</th>
+        </tr>
+        <tr>
+            <th>F.NAME</th>
+            <th>L.NAME</th>
+            <th>DATE</th>
+            <th>MOTHS</th>
+            <th>YEAR</th>
+        </tr>
+    </table>
+</body>
+
+</html>
