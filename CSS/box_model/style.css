@@ -1,0 +1,78 @@
+/* #a
+{
+    width: 500px;
+    border: 2px dashed black;
+}
+#s
+{
+    width: 70%;
+     border: 2px dashed black;
+     margin-left: 90px;
+     
+}
+#h
+{
+    width: 200px;
+    height: 200;
+    padding: 50px;
+    margin:20px 40px 60px;
+    border: 2px solid black;
+}
+.d
+{
+    display: inline;
+    width: 300;
+    height: 300;
+    border: 2px solid blue;
+}
+.d
+{
+    display: block;
+    width: 200;
+    height: 400;
+    border: 2px solid blue;
+} */
+
+/* 10px = All side       
+10px 20px = top/bootom ,left/right
+10px 20px  30px = top left/right bottom
+10px 10px 30px 40px = top right bottom left*/
+
+/* 
+dispaly property = none,block,inline,inlineblock,flex,grid */
+
+
+ .a1
+{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 2px;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 7px;
+
+    
+} 
+#b
+{
+    background-color: beige;
+}
+#i
+{
+    background-color: antiquewhite;
+}
+#j
+{
+    background-color: bisque;
+}
+#k
+{
+    background-color: blanchedalmond;
+}
+
+.btn
+{
+  background-color: gray;
+  margin: 90px;
+}
