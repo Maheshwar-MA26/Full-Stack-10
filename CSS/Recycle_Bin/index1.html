@@ -1,0 +1,939 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form Assignments</title>
+
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+
+  <body>
+    <b>Task 1</b>
+    <div class="task task1">
+      
+      <h1>Admin Login Page</h1>
+
+      <form>
+        <table>
+          <tr>
+            <td>
+              <label for="username">Username:</label>
+            </td>
+            <td>
+              <input type="text" id="username" name="username" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="password">Password:</label>
+            </td>
+            <td>
+              <input type="password" id="password" name="password" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="Submit" />
+              <input type="reset" value="Reset" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <br>
+    <br>
+    <b>Task 2</b>
+
+    <div class="task task2">
+
+      <h1>Pizza Order Form</h1>
+
+      <form>
+        <label>First Name:</label>
+        <input type="text" name="firstname" />
+        <br /><br />
+        <label>Last Name:</label>
+        <input type="text" name="lastname" />
+        <br /><br />
+        <label>Email Address:</label>
+        <input type="email" name="email" />
+        <br />
+        <br />
+        <label>Contact Number:</label>
+        <input type="tel" name="contact" />
+        <br />
+        <br />
+        <label>Preferred Delivery Date:</label>
+        <input type="date" name="deliverydate" />
+        <br />
+        <br />
+        <label>Size:</label>
+        <br />
+        <input type="radio" name="size" value="small" />
+        Smal
+        <input type="radio" name="size" value="medium" />
+        Medium
+        <input type="radio" name="size" value="large" />
+        Large
+        <br />
+        <br />
+        <label>Flavor:</label>
+        <br />
+        <br />
+        <input type="checkbox" name="flavor" value="hawaiian" />
+        Hawaiian (Php 150.00)
+        <select name="hawaiian_quantity">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <br />
+        <br />
+        <input type="checkbox" name="flavor" value="pepperoni" />
+        Pepperoni (Php 140.00)
+        <select name="pepperoni_quantity">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" name="flavor" value="vegetable" />
+        Vegetable (Php 130.00)
+        <select name="vegetable_quantity">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+        </select>
+        <br />
+        <br />
+        <label>Credit Card Number:</label>
+        <input type="text" name="card" />
+        <br />
+        <br />
+        <label>PIN:</label>
+        <input type="password" name="pin" />
+        <br>
+        <br>
+        <label>Additional Note:</label>
+        <br />
+        <textarea name="note"></textarea>
+        <br />
+        <br />
+        <input type="submit" value="Submit Order" />
+      </form>
+    </div>
+
+    <br>
+    <br>
+
+    <b>Task 3</b>
+    <div class="task task3">
+    
+      <form>
+        <h1>Registration Form</h1>
+        <p>
+          Your submitted information is kept in the strictest confidence.
+          <br />
+          You always retain control of your information with D.W. Simpson & Co.
+          <br />
+          <b>Our services are always at no cost to you.</b>
+        </p>
+
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td>
+              <input type="text" name="name" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Address:</td>
+            <td>
+              <input type="text" name="address" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>City:</td>
+            <td>
+              <input type="text" name="city" />
+            </td>
+
+            <td>State/Province:</td>
+            <td>
+              <input type="text" name="state" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Zip Code:</td>
+            <td>
+              <input type="text" name="zip" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Country:</td>
+            <td>
+              <input type="text" name="country" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Phone: (H)</td>
+            <td>
+              <input type="text" name="homephone" />
+            </td>
+
+            <td>Fax:</td>
+            <td>
+              <input type="text" name="fax" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Phone: (W)</td>
+            <td>
+              <input type="text" name="workphone" />
+            </td>
+
+            <td colspan="2">(if able to speak freely)</td>
+          </tr>
+
+          <tr>
+            <td>Email:</td>
+            <td>
+              <input type="email" name="email" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Company Name:</td>
+            <td>
+              <input type="text" name="company" />
+            </td>
+
+            <td colspan="2">(optional)</td>
+          </tr>
+
+          <tr>
+            <td>Desired Region:</td>
+            <td>
+              <select name="region">
+                <option>Other</option>
+                <option>North</option>
+                <option>South</option>
+                <option>East</option>
+                <option>West</option>
+              </select>
+            </td>
+
+            <td>Other:</td>
+            <td>
+              <input type="text" name="other" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="4">
+              <b>Professional designations earned:</b>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="4">
+              <input type="checkbox" /> College Student
+              <input type="checkbox" /> Actuarial Student
+              <input type="checkbox" /> ACAS <input type="checkbox" /> FCAS
+              <input type="checkbox" /> ASA
+
+              <br />
+
+              <input type="checkbox" /> FSA <input type="checkbox" /> EA
+              <input type="checkbox" /> CFA <input type="checkbox" /> MBA
+              <input type="checkbox" /> MAAA <input type="checkbox" /> FIA
+              <input type="checkbox" /> FCIA
+
+              <br />
+
+              <input type="checkbox" /> FIAA <input type="checkbox" /> Financial
+              Engineer <input type="checkbox" /> M.S.
+              <input type="checkbox" /> Ph.D. <input type="checkbox" /> Data
+              Mining <input type="checkbox" /> Quant
+            </td>
+          </tr>
+
+          <tr>
+            <td>Other Designations:</td>
+            <td colspan="3">
+              <input type="text" name="designation" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <br>
+    <br>
+    <b>Task 4</b>
+    <div class="task task4">
+
+      <form>
+        <table border="1">
+          <tr>
+            <th colspan="4">Registration Form</th>
+          </tr>
+
+          <tr>
+            <td>Student Name</td>
+
+            <td>
+              <input type="text" placeholder="First Name" />
+            </td>
+
+            <td>
+              <input type="text" placeholder="Middle Name" />
+            </td>
+
+            <td>
+              <input type="text" placeholder="Last Name" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Father's Name</td>
+
+            <td>
+              <input type="text" placeholder="Enter your father's Name" />
+            </td>
+
+            <td>Mother's Name</td>
+
+            <td>
+              <input type="text" placeholder="Enter your Mother's Name" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Date of Birth</td>
+
+            <td>
+              <input type="date" />
+            </td>
+
+            <td>Gender</td>
+
+            <td>
+              Male
+              <input type="radio" name="gender" />
+
+              Female
+              <input type="radio" name="gender" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Category</td>
+
+            <td>
+              Gen
+              <input type="radio" name="category" />
+
+              OBC
+              <input type="radio" name="category" />
+
+              SC/ST
+              <input type="radio" name="category" />
+            </td>
+
+            <td>Handicapped</td>
+
+            <td>
+              Yes
+              <input type="radio" name="handicapped" />
+
+              No
+              <input type="radio" name="handicapped" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Ex-Serviceman</td>
+
+            <td>
+              Yes
+              <input type="radio" name="exservice" />
+
+              NO
+              <input type="radio" name="exservice" />
+            </td>
+
+            <td>EWS</td>
+
+            <td>
+              Yes
+              <input type="radio" name="ews" />
+
+              No
+              <input type="radio" name="ews" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>Email ID</td>
+
+            <td>
+              <input type="email" />
+            </td>
+
+            <td>Mobile No.</td>
+
+            <td>
+              <input type="tel" />
+            </td>
+          </tr>
+
+          <tr>
+            <td>State</td>
+
+            <td>
+              <select>
+                <option>Select any One</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Rajasthan</option>
+                <option>Uttar Pradesh</option>
+              </select>
+            </td>
+
+            <td>City</td>
+
+            <td>
+              <select>
+                <option>Select any One</option>
+                <option>Bhopal</option>
+                <option>Indore</option>
+                <option>Jabalpur</option>
+                <option>Gwalior</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Upload Photo</td>
+
+            <td>
+              <input type="file" />
+            </td>
+
+            <td>Upload Signature</td>
+
+            <td>
+              <input type="file" />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="4">
+              <input type="submit" value="Submit" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <br>
+    <br>
+
+    <b>Task 5:</b>
+    <div class="task task5">
+      <form>
+        <h3>APPLICATION FORM</h3>
+
+        <fieldset>
+          <legend>Personal Details</legend>
+
+          <table>
+            <tr>
+              <td>Applicant's full name</td>
+              <td>
+                <select>
+                  <option>--Select--</option>
+                  <option>Mr.</option>
+                  <option>Ms.</option>
+                  <option>Mrs.</option>
+                </select>
+
+                <input type="text" />
+              </td>
+
+              <td>Care Of</td>
+              <td>
+                Parents
+                <input type="radio" name="careof" />
+
+                Guardian
+                <input type="radio" name="careof" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Father's Name</td>
+              <td>
+                <select>
+                  <option>Mr.</option>
+                </select>
+
+                <input type="text" />
+              </td>
+
+              <td>Mother's Name</td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Gender</td>
+              <td>
+                Male
+                <input type="radio" name="gender5" />
+
+                Female
+                <input type="radio" name="gender5" />
+
+                Others
+                <input type="radio" name="gender5" />
+              </td>
+
+              <td>Date of Birth</td>
+              <td>
+                <input type="date" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Marital Status</td>
+              <td>
+                <select>
+                  <option>--Select--</option>
+                  <option>Married</option>
+                  <option>Unmarried</option>
+                </select>
+              </td>
+
+              <td>Category</td>
+              <td>
+                <select>
+                  <option>--Select--</option>
+                  <option>General</option>
+                  <option>OBC</option>
+                  <option>SC</option>
+                  <option>ST</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Handicapped</td>
+              <td>
+                No
+                <input type="radio" name="handi" />
+
+                Yes
+                <input type="radio" name="handi" />
+              </td>
+
+              <td>Ex-Serviceman</td>
+              <td>
+                No
+                <input type="radio" name="ex5" />
+
+                Yes
+                <input type="radio" name="ex5" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>EWS</td>
+              <td>
+                No
+                <input type="radio" name="ews5" />
+
+                Yes
+                <input type="radio" name="ews5" />
+              </td>
+
+              <td>Religion</td>
+              <td>
+                <select>
+                  <option>--Select--</option>
+                  <option>Hindu</option>
+                  <option>Muslim</option>
+                  <option>Christian</option>
+                  <option>Other</option>
+                </select>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <legend>Contact Details</legend>
+
+          <table>
+            <tr>
+              <td>Mobile Number</td>
+              <td>
+                <input type="tel" />
+              </td>
+
+              <td>Email ID</td>
+              <td>
+                <input type="email" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Address Line 1</td>
+              <td>
+                <input type="text" />
+              </td>
+
+              <td>Address Line 2</td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>City</td>
+              <td>
+                <input type="text" />
+              </td>
+
+              <td>State</td>
+              <td>
+                <select>
+                  <option>--Select--</option>
+                  <option>Madhya Pradesh</option>
+                  <option>Maharashtra</option>
+                  <option>Rajasthan</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Pin Code</td>
+              <td>
+                <input type="text" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <legend>Qualification Details</legend>
+
+          <table border="1">
+            <tr>
+              <th>Sr. No.</th>
+              <th>Qualification</th>
+              <th>Board/University</th>
+              <th>Passing Year</th>
+              <th>Max Marks</th>
+              <th>Marks Obtain</th>
+              <th>Percentage</th>
+            </tr>
+
+            <tr>
+              <td>1</td>
+
+              <td>
+                <select>
+                  <option>--Select--</option>
+                  <option>10th</option>
+                  <option>12th</option>
+                  <option>Graduation</option>
+                </select>
+              </td>
+
+              <td>
+                <input type="text" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+
+              <td>
+                <select>
+                  <option>--Select--</option>
+                  <option>10th</option>
+                  <option>12th</option>
+                  <option>Graduation</option>
+                </select>
+              </td>
+
+              <td>
+                <input type="text" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+
+              <td>
+                <select>
+                  <option>--Select--</option>
+                  <option>10th</option>
+                  <option>12th</option>
+                  <option>Graduation</option>
+                </select>
+              </td>
+
+              <td>
+                <input type="text" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+
+              <td>
+                <select>
+                  <option>--Select--</option>
+                  <option>10th</option>
+                  <option>12th</option>
+                  <option>Graduation</option>
+                </select>
+              </td>
+
+              <td>
+                <input type="text" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+
+              <td>
+                <input type="number" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <legend>Language Knowledge</legend>
+
+          <table>
+            <tr>
+              <th>Language</th>
+              <th>Reading</th>
+              <th>Writing</th>
+              <th>Spoken</th>
+            </tr>
+
+            <tr>
+              <td>Hindi</td>
+              <td><input type="checkbox" /></td>
+              <td><input type="checkbox" /></td>
+              <td><input type="checkbox" /></td>
+            </tr>
+
+            <tr>
+              <td>English</td>
+              <td><input type="checkbox" /></td>
+              <td><input type="checkbox" /></td>
+              <td><input type="checkbox" /></td>
+            </tr>
+
+            <tr>
+              <td>Urdu</td>
+              <td><input type="checkbox" /></td>
+              <td><input type="checkbox" /></td>
+              <td><input type="checkbox" /></td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <!-- IDENTIFICATION DETAILS -->
+
+        <fieldset>
+          <legend>Identification Details</legend>
+
+          <label>Aadhar Card Number</label>
+          <input type="text" />
+
+          <label>PAN Card Number</label>
+          <input type="text" />
+
+          <br /><br />
+
+          <label>Upload Photo</label>
+          <input type="file" />
+
+          <label>Upload Signature</label>
+          <input type="file" />
+        </fieldset>
+
+        <br />
+
+        <input type="submit" value="Submit" />
+        <input type="button" value="Back" />
+      </form>
+    </div>
+
+    <br>
+    <br>
+    <b>Task 6:</b>
+    <div class="task task6">
+
+      <div class="doctor-form">
+        <div class="doctor-image">
+
+          <img src="Screenshot 2026-09-20 113907.png" alt="" />
+        </div>
+
+        <div class="appointment">
+          <h1>Doctor Appointment Form</h1>
+
+          <form>
+            <div class="form-row">
+              <label>Appointment Date</label>
+              <input type="date" />
+            </div>
+
+            <div class="form-row">
+              <label>Appointment Time</label>
+              <input type="time" />
+            </div>
+
+            <div class="form-row">
+              <label>Name</label>
+
+              <input type="text" placeholder="First" />
+
+              <input type="text" placeholder="Last" />
+            </div>
+
+            <div class="form-row">
+              <label>Gender</label>
+
+              Male
+              <input type="radio" name="doctor_gender" />
+
+              Female
+              <input type="radio" name="doctor_gender" />
+            </div>
+
+            <div class="form-row">
+              <label>Phone</label>
+              <input type="tel" />
+            </div>
+
+            <div class="form-row">
+              <label>Address</label>
+
+              <input type="text" placeholder="city" />
+
+              <input type="text" placeholder="state" />
+            </div>
+
+            <div class="form-row">
+              <label>Your Query</label>
+
+              <textarea></textarea>
+            </div>
+
+            <div class="appointment-type">
+              <label>Appointment Type</label>
+
+              <p>Select which appointment type(s) you require</p>
+
+              <input type="checkbox" />
+              Cervix checkup
+              <br />
+
+              <input type="checkbox" />
+              Heart checkup
+              <br />
+
+              <input type="checkbox" />
+              Eye check-up
+              <br />
+
+              <input type="checkbox" />
+              Hearing Test
+            </div>
+
+            <br />
+
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

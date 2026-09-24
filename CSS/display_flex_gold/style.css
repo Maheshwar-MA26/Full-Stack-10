@@ -24,3 +24,15 @@
   /* display: inline-block;
     margin-right: 100px; */
 }
+
+#a
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b
+{
+    justify-content: space-around;
+    border: 2px solid rgb(244, 101, 244);
+}
