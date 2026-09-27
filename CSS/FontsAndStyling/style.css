@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playwrite+BE+WAL+Guides&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  background-color: rgb(213, 128, 232);
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.subheading {
+  font-size: x-large;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Playwrite BE WAL Guides", cursive;
+}
+
+#description span {
+  font-weight: 400;
+  color: green;
+  text-decoration: underline;
+}
+
+.pointer-head {
+  font-size: large;
+  font-weight: 700;
+}
+
+main {
+  margin-top: 20px 0 0 14px;
+}
+
+ul {
+  margin-left: 50px;
+  list-style: "😎";
+}
+
+ol {
+  margin-left: 40px;
+  list-style: lower-greek;
+}
+
+.section1 {
+  ol::first-line {
+    color: rgb(236, 8, 8);
+  }
+
+  ol li ul:last-child {
+    color: rgba(167, 6, 242, 0.975);
+  }
+
+  ol li:first-child ul li:last-child {
+    background-color: aquamarine;
+  }
+}
+
+.section2 {
+  ul li:first-child {
+    color: rgb(236, 8, 8);
+  }
+}
+
+.section3 {
+  margin: 40px 0px 40px 0px;
+  table {
+    border-collapse: collapse;
+    text-align: center;
+    word-spacing: 20px;
+    text-spacing: 10px;
+  }
+
+  td,
+  th {
+    border: 3px solid rgb(255, 0, 0);
+  }
+
+  thead {
+    background-color: pink;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: rgb(255, 164, 122);
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: rgb(236, 123, 62);
+  }
+}
+
+.section4 p {
+  word-spacing: 50px;
+  letter-spacing: 10px;
+}
+
+footer {
+  background-color: rgb(243, 103, 194);
+  color: azure;
+  padding: 5px;
+  position: fixed;
+  bottom: 0%;
+  text-align: center;
+  width: 100vw; /*page ki width ke acc*/
+}
