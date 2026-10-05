@@ -1,0 +1,821 @@
+/* ================= GLOBAL ================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #eff2f1;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+  background-color: #3b5d50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+}
+
+.logo a {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links a {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f9bf29;
+}
+
+.nav-links img {
+  width: 22px;
+  height: 22px;
+}
+
+/* ================= MAIN ================= */
+
+main {
+  background-color: #eff2f1;
+}
+
+/* ================= HERO SECTION ================= */
+
+.Section-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #3b5d50;
+  color: #fff;
+
+  padding: 5rem 5%;
+  gap: 3rem;
+}
+
+.Section-1-content {
+  width: 45%;
+  max-width: 500px;
+}
+
+.Section-1-content h1 {
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+
+.Section-1-content p {
+  margin: 2rem 0;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Section-1-image {
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Section-1-image img {
+  width: 100%;
+  max-width: 650px;
+  display: block;
+}
+
+/* ================= BUTTONS ================= */
+
+.btn {
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  transition: 0.3s ease;
+}
+
+#shop-now {
+  background-color: #f9bf29;
+  border: 2px solid #f9bf29;
+  color: #222;
+}
+
+#shop-now:hover {
+  background-color: #eaae18;
+  border-color: #eaae18;
+}
+
+#explore-now {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+#explore-now:hover {
+  background-color: #fff;
+  color: #3b5d50;
+}
+
+#explore {
+  background-color: black;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: #fff;
+}
+
+/* ================= PRODUCTS SECTION ================= */
+
+.products-section-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 0;
+
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.products {
+  padding: 1rem;
+}
+
+.products h1 {
+  color: #2f2f2f;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.products p {
+  color: #777;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.product-images {
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.product-images:hover {
+  transform: translateY(-20px);
+}
+
+.product-images img {
+  width: 100%;
+  max-width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.product-images h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #3b5d50;
+}
+
+.product-images strong {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+  color: #2f2f2f;
+}
+
+/* ================= WHY CHOOSE US ================= */
+
+.why-we-choose-Section {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 5rem;
+  padding: 6rem 0;
+}
+
+/* ================= WHY CHOOSE LEFT ================= */
+
+.why-we-choose-content-1 {
+  width: 55%;
+}
+
+.why-we-choose-item-para {
+  margin-bottom: 3rem;
+}
+
+.why-we-choose-item-para h3 {
+  font-size: 2rem;
+  color: #2f2f2f;
+  margin-bottom: 1rem;
+}
+
+.why-we-choose-item-para p {
+  color: #777;
+  line-height: 1.7;
+}
+
+/* ================= FEATURES ================= */
+
+.why-we-choose-item-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.why-we-choose-item-block1,
+.why-we-choose-item-block2 {
+  display: contents;
+}
+
+.why-we-choose-item-block11,
+.why-we-choose-item-block12,
+.why-we-choose-item-block21,
+.why-we-choose-item-block22 {
+  padding: 0.5rem;
+}
+
+.why-we-choose-item-block img {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.why-we-choose-item-block h3 {
+  color: #2f2f2f;
+  margin-bottom: 0.7rem;
+}
+
+.why-we-choose-item-block p {
+  color: #777;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* ================= WHY CHOOSE IMAGE ================= */
+
+.why-we-choose-content-2 {
+  width: 45%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-we-choose-content-img-2 {
+  width: 100%;
+  position: relative;
+}
+
+.why-we-choose-content-img-2 img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+
+  border-radius: 20px;
+}
+
+/* ================= WE HELP YOU ================= */
+
+.We-Help-You {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+
+  padding: 5rem 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 4rem;
+}
+
+/* ================= WE HELP YOU IMAGE ================= */
+
+.We-Help-You-img {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.We-Help-You-img img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  display: grid;
+}
+
+.img1 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.img2 {
+  display: grid;
+  grid-column: 2;
+  grid-row: 1;
+}
+.img3 {
+  display: grid;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+/* ================= WE HELP YOU CONTENT ================= */
+
+.We-Help-You-2 {
+  width: 50%;
+  padding: 5px;
+}
+
+.We-Help-You-2 h3 {
+  font-size: 3rem;
+  line-height: 1.2;
+
+  color: #2f2f2f;
+
+  margin-bottom: 1rem;
+}
+
+.We-Help-You-2 p {
+  color: #777;
+  line-height: 1.7;
+
+  margin-bottom: 1.5rem;
+}
+
+.We-Help-You-2-ul {
+  list-style: circle;
+  padding: 0;
+  margin: 0;
+}
+
+.We-Help-You-2 li {
+  color: #777;
+
+  line-height: 1.7;
+  margin-bottom: 0.8rem;
+
+  display: flex;
+  align-items: flex-start;
+
+  gap: 1rem;
+}
+
+.We-Help-You-2 li::before {
+  content: "○";
+  color: #3b5d50;
+  font-weight: bolder;
+  flex-shrink: 0;
+}
+
+/* ================= RESPONSIVE 900px ================= */
+
+@media (max-width: 900px) {
+  /* HEADER */
+
+  .nav-links {
+    gap: 1rem;
+  }
+
+  /* HERO */
+
+  .Section-1 {
+    flex-direction: column;
+    text-align: center;
+
+    padding: 4rem 5%;
+  }
+
+  .Section-1-content {
+    width: 100%;
+    max-width: 650px;
+  }
+
+  .Section-1-content h1 {
+    font-size: 3rem;
+  }
+
+  .Section-1-image {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .Section-1-image img {
+    max-width: 600px;
+  }
+
+  /* PRODUCTS */
+
+  .products-section-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .products {
+    grid-column: span 2;
+    max-width: 600px;
+  }
+
+  /* WHY CHOOSE */
+
+  .why-we-choose-Section {
+    flex-direction: column;
+
+    gap: 3rem;
+  }
+
+  .why-we-choose-content-1,
+  .why-we-choose-content-2 {
+    width: 100%;
+  }
+
+  .why-we-choose-content-1 {
+    max-width: 700px;
+  }
+
+  .why-we-choose-content-2 {
+    justify-content: center;
+  }
+
+  /* WE HELP YOU */
+
+  .We-Help-You {
+    flex-direction: column;
+
+    gap: 3rem;
+
+    text-align: center;
+  }
+
+  .We-Help-You-img,
+  .We-Help-You-2 {
+    width: 100%;
+  }
+
+  .We-Help-You-2 {
+    max-width: 650px;
+  }
+
+  .We-Help-You-2 li {
+    justify-content: flex-start;
+    text-align: left;
+  }
+}
+
+/* ================= POPULAR PRODUCTS ================= */
+
+.popular-product {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.popular-product-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.popular-product-img {
+  width: 40%;
+  flex-shrink: 0;
+}
+
+.popular-product-img img {
+  width: 100%;
+  max-width: 120px;
+  padding: 10px;
+  background-color: #d9e7e8;
+  border-radius: 20px;
+  display: block;
+}
+
+.popular-product-info {
+  width: 60%;
+  margin: 0;
+  padding: 0;
+}
+
+.popular-product-info h4 {
+  color: #2f2f2f;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.popular-product-info p {
+  color: #777;
+  line-height: 1.5;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+/*---------------------------- Testimonials -------------------------------*/
+
+.Testimonials-block {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.Testimonials-block h3 {
+  color: #2f2f2f;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.Testimonials-block p {
+  color: #777;
+  line-height: 1.7;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 800px;
+}
+
+.Testimonials-block-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.Testimonials-block img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.Testimonials-block strong {
+  color: #2f2f2f;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  text-align: center;
+}
+
+/*------------------- RECENT BLOG -------------------*/
+
+.Recent-Blog {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5rem 0;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.Recent-Blog-header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
+  h2 {
+    color: #2f2f2f;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: #3b5d50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+    text-align: right;
+  }
+}
+
+.Recent-Blog-header-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+.Recent-Blog-header-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: space-between;
+  align-items: right;
+}
+
+.Recent-Blog-content {
+  margin: 10px 0 10px 0;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  img {
+    padding: 15px;
+  }
+}
+
+.recent-img {
+  border-radius: 40px;
+  width: 100%;
+}
+
+.Recent-Blog-content h5 {
+  color: #2f2f2f;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.Recent-Blog-content p {
+  color: #2f2f2f;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+/*--------------- footr --------------------*/
+
+.footer-class send{
+    content: "img";
+}
+
+/* ================= RESPONSIVE 600px ================= */
+
+@media (max-width: 600px) {
+  /* HEADER */
+
+  .header {
+    flex-direction: column;
+
+    gap: 1rem;
+
+    padding: 1rem 5%;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 1rem;
+  }
+
+  .logo a {
+    font-size: 2.5rem;
+  }
+
+  /* HERO */
+
+  .Section-1 {
+    padding: 3.5rem 5%;
+  }
+
+  .Section-1-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .Section-1-content p {
+    margin: 1.5rem 0;
+  }
+
+  .btn {
+    padding: 0.8rem 1.5rem;
+
+    margin-bottom: 0.7rem;
+  }
+
+  /* PRODUCTS */
+
+  .products-section-container {
+    grid-template-columns: 1fr;
+
+    padding: 4rem 0;
+  }
+
+  .products {
+    grid-column: auto;
+
+    text-align: center;
+
+    max-width: none;
+  }
+
+  .product-images img {
+    max-width: 220px;
+  }
+
+  /* WHY CHOOSE */
+
+  .why-we-choose-Section {
+    width: 90%;
+
+    padding: 4rem 0;
+
+    gap: 2.5rem;
+  }
+
+  .why-we-choose-item-para {
+    margin-bottom: 2rem;
+  }
+
+  .why-we-choose-item-para h3 {
+    font-size: 1.7rem;
+  }
+
+  .why-we-choose-item-block {
+    grid-template-columns: 1fr;
+
+    gap: 2rem;
+  }
+
+  /* WE HELP YOU */
+
+  .We-Help-You {
+    width: 90%;
+    padding: 4rem 0;
+    gap: 2rem;
+  }
+
+  .We-Help-You-img {
+    flex-direction: column;
+  }
+
+  .We-Help-You-img img {
+    max-width: 100%;
+  }
+
+  .We-Help-You-2 h3 {
+    font-size: 2.3rem;
+  }
+
+  .We-Help-You-2 p {
+    font-size: 0.95rem;
+  }
+
+  .We-Help-You-2 li {
+    gap: 0.7rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* ================= VERY SMALL DEVICES ================= */
+
+@media (max-width: 400px) {
+  .logo a {
+    font-size: 2rem;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .Section-1-content h1 {
+    font-size: 2.1rem;
+  }
+
+  .btn {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .We-Help-You-2 h3 {
+    font-size: 2rem;
+  }
+}
