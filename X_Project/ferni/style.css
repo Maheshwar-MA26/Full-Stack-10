@@ -669,6 +669,19 @@ main {
   margin-bottom: 0.5rem;
   text-align: center;
 }
+/*==================================================*/
+
+.img-last {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  top: 12rem;
+  left: 65%;
+}
+
+.img-last img {
+  width: 100%;
+}
 
 /*--------------- footer --------------------*/
 
@@ -680,23 +693,34 @@ main {
   background-color: white;
 }
 
-.img-last {
-  width: 100%;
-  max-width: 400px;
+.footer-section-1 {
+  display: grid;
 }
 
-.img-last img {
-  width: 100%;
-  align-items: right;
-}
-.footer-class .send {
-  border: black;
-  background-color: #3b5d50;
-  border-radius: 5px;
-  width: 4rem;
-  height: 2.5rem;
+.send {
+  margin-left: 2rem;
+  padding: 0;
+
+  width: 6rem;
+  height: 4rem;
+
+  display: flex;
+  align-items: center;
   justify-content: center;
+
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #3b5d50;
+
+  cursor: pointer;
 }
+
+.send svg {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
 .footer-name,
 .footer-email {
   margin: 5px;
@@ -751,6 +775,58 @@ main {
   padding-left: 250px;
   justify-content: right;
   word-spacing: 20px;
+}
+
+.footer-section-2 {
+  margin: 1rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-section-2_1 {
+  width: 100%;
+  padding: 0 5rem 0 0;
+
+  h3 {
+    padding: 0 0 1rem;
+  }
+
+  p {
+    margin: 1rem 0 3rem;
+    line-height: 1.5;
+    font-family: "Inter", sans-serif;
+  }
+
+  .footer-section-2_1_2 {
+    a {
+      padding: 0.8rem;
+      background-color: #c6e4d9;
+      color: #1e4838;
+      border-radius: 500rem;
+      margin: 0.3rem;
+      font-weight: bold;
+    }
+  }
+}
+
+.footer-section-2_2,
+.footer-section-2_3 {
+  padding: 1rem 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  ul {
+    list-style-type: none;
+    line-height: 2;
+  }
+  .footer-section-2_2_x {
+    margin: 0 1.2rem;
+    padding: 0 0.5rem;
+    width: 100%;
+    max-width: 100rem;
+  }
 }
 
 /* ================= RESPONSIVE 600px ================= */
