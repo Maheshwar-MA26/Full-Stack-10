@@ -836,17 +836,13 @@ main {
 
   .header {
     flex-direction: column;
-
     gap: 1rem;
-
     padding: 1rem 5%;
   }
 
   .nav-links {
     flex-wrap: wrap;
-
     justify-content: center;
-
     gap: 1rem;
   }
 
@@ -870,7 +866,6 @@ main {
 
   .btn {
     padding: 0.8rem 1.5rem;
-
     margin-bottom: 0.7rem;
   }
 
@@ -878,15 +873,12 @@ main {
 
   .products-section-container {
     grid-template-columns: 1fr;
-
     padding: 4rem 0;
   }
 
   .products {
     grid-column: auto;
-
     text-align: center;
-
     max-width: none;
   }
 
@@ -898,9 +890,7 @@ main {
 
   .why-we-choose-Section {
     width: 90%;
-
     padding: 4rem 0;
-
     gap: 2.5rem;
   }
 
@@ -914,7 +904,6 @@ main {
 
   .why-we-choose-item-block {
     grid-template-columns: 1fr;
-
     gap: 2rem;
   }
 
