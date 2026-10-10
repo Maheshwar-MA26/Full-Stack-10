@@ -72,3 +72,8 @@ do {
   console.log("We are learning JavaScript do-while loop", i + 1);
   i++;
 } while (i <= 5);
+
+for(var i = 0; i < 0 ; i++)
+{
+  console.log("hiiii");
+}
