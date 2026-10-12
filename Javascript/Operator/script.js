@@ -73,7 +73,7 @@ do {
   i++;
 } while (i <= 5);
 
-for(var i = 0; i < 0 ; i++)
+for(var i = 0; i < 2 ; i++)
 {
-  console.log("hiiii");
+  console.log("hiiii from for loop" + i+1);
 }
