@@ -1,3 +1,15 @@
+// Behaves like System.out.print()
+process.stdout.write("Hello ");
+process.stdout.write("World"); 
+// Output: Hello World
+
+// Behaves like System.out.println()
+console.log("Hello");
+console.log("World");
+// Output:
+// Hello
+// World
+
 //funtion
 function fun1() {
   alert("hello world");
