@@ -1,6 +1,6 @@
 // Behaves like System.out.print()
-process.stdout.write("Hello ");
-process.stdout.write("World"); 
+// process.stdout.write("Hello ");
+// process.stdout.write("World"); 
 // Output: Hello World
 
 // Behaves like System.out.println()

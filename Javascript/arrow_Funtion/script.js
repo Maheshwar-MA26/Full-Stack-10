@@ -11,4 +11,3 @@
 const a = () => {
   console.log("this is Arrow Function");
 };
-

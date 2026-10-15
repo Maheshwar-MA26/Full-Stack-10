@@ -6,7 +6,7 @@ const arr_ = ["mahi", 26, "A", 20.2, true];
 const arr1 = [10, 20, 30, 40, 50, 60, 70];
 
 for (var i = 0; i < arr_.length; i++) {
-  console.log(arr[i]);
+  console.log(arr_[i]);
   //   process.stdout.write(arr[i]);
 }
 
@@ -25,6 +25,7 @@ let ar2 = [1, 2, 3, 4, 5];
 
 console.log(ar1);
 console.log(ar2);
+// +++++++++++++++++++++++++++++++++++++++++++
 
 ar1[0] = 20;
 ar2 = [1, 2, 3, 4, 5, 6, 7];
@@ -59,7 +60,7 @@ console.log(arr);
 arr.pop();
 console.log(arr);
 
-let abc = arr.filter((item) => item != "Himichal");
+let abc = arr.filter((item) => item != "Himichal");// Item ko neglet kr ke print karo
 console.log(abc);
 
 const arr2 = ["Apple", "2kg", "Himichal", 20, 99.1, true];
