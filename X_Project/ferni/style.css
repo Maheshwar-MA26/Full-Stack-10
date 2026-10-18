@@ -157,6 +157,18 @@ main {
   align-items: start;
 }
 
+.products-section-container_of_shop {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
 .products {
   padding: 1rem;
 }
