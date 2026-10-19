@@ -1,9 +1,6 @@
 # My Live Project
 
-My Live Project
-Live Demo
-
-View Live Project
+My Live Project Demo
 
 Project Description
 
