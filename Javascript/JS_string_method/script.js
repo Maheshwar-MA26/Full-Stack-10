@@ -32,7 +32,7 @@ document.getElementById("info").innerHTML = `
 /* 2. Student Marks and Fee Report */
 
 let marksText = "87";
-let feeText = "25500.75";
+let feeText = "25500.75008";
 
 let marks = Number.parseInt(marksText);
 let fee = Number.parseFloat(feeText);
@@ -64,7 +64,7 @@ let radius = 5;
 let value = -15;
 
 let area = Math.PI * radius * radius;
-let hypotenuse = Math.hypot(3, 4);
+let hypotenuse = Math.hypot(1, 1);
 
 document.getElementById("math").innerHTML = `
     <p>Student Marks: ${studentMarks.join(", ")}</p>
@@ -77,7 +77,7 @@ document.getElementById("math").innerHTML = `
     <p>Trunc: ${Math.trunc(num)}</p>
 
     <p>Circle Area: ${area.toFixed(2)}</p>
-    <p>Triangle Hypotenuse: ${hypotenuse}</p>
+    <p>Triangle Hypotenuse: ${hypotenuse.toFixed(2)}</p>
 
     <p>Absolute Value: ${Math.abs(value)}</p>
     <p>Sign: ${Math.sign(value)}</p>
@@ -112,7 +112,7 @@ generateRandom();
 
 /* 5. Student Assignment Deadline Manager */
 
-let deadline = new Date(2026, 10, 20, 14, 30);
+let deadline = new Date(2026, 10, 27, 14, 30);
 
 let reminder = new Date(deadline);
 reminder.setDate(reminder.getDate() - 7);
